@@ -36,7 +36,7 @@ Go to the backend folder and open .env.
 Set the following:
 
    # Server
-    PORT=5000
+PORT=5000
 
 # Database
 DB_NAME=leave_management

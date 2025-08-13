@@ -8,6 +8,8 @@ import AddEmployeePage from './pages/AddEmployeePage/AddEmployeePage';
 import ApplyLeavePage from './pages/ApplyLeavePage/ApplyLeavePage';
 import MyLeavesPage from './pages/MyLeavesPage/MyLeavesPage';
 import PendingLeavesPage from './pages/PendingLeavesPage/PendingLeavesPage';
+import './App.css';
+
 
 
 function App() {
