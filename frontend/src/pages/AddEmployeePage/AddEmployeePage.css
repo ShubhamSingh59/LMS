@@ -1,0 +1,16 @@
+.leaves-page {
+  padding: 20px;
+}
+
+.leaves-page h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}

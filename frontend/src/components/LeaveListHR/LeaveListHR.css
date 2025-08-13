@@ -1,0 +1,57 @@
+.leave-list-hr {
+  padding: 20px;
+}
+
+.leave-list-hr h2 {
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.leave-list-hr table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+}
+
+.leave-list-hr th,
+.leave-list-hr td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.leave-list-hr th {
+  background-color: #f4f6f8;
+}
+
+.status-pending {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+.approve-btn {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  margin-right: 5px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.reject-btn {
+  background-color: #c0392b;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.approve-btn:hover {
+  background-color: #1e8449;
+}
+
+.reject-btn:hover {
+  background-color: #922b21;
+}
