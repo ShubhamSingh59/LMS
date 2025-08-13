@@ -1,4 +1,3 @@
-// src/pages/EmployeesPage/EmployeesPage.js
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import EmployeeList from '../../components/EmployeeList/EmployeeList';
@@ -18,7 +17,7 @@ const EmployeesPage = () => {
   }, []);
 
   const handleAddEmployee = () => {
-    navigate('/add-employee'); // Navigate to Add Employee form page
+    navigate('/add-employee'); 
   };
 
   return (

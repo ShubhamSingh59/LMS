@@ -1,4 +1,3 @@
-// src/pages/AddEmployeePage/AddEmployeePage.js
 import React from 'react';
 import EmployeeForm from '../../components/AddEmployeeForm/EmployeeForm';
 

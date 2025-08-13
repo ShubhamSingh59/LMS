@@ -35,19 +35,19 @@ function ApplyLeavePage() {
     const end = new Date(formData.endDate);
     const joining = new Date(employee.joiningDate);
 
-    // Rule 1: Cannot apply before joining date
+  
     if (start < joining) {
       alert("You cannot apply for leave before your joining date.");
       return;
     }
 
-    // Rule 2: Start date must be before or equal to end date
+ 
     if (start > end) {
       alert("Start date must be before or equal to end date.");
       return;
     }
 
-    // Rule 3: Cannot exceed leave balance
+    
     const daysRequested =
       (end.getTime() - start.getTime()) / (1000 * 60 * 60 * 24) + 1;
     if (daysRequested > employee.leaveBalance) {

@@ -1,4 +1,3 @@
-// backend/models/index.js
 import models from '../models/index.js';
 
 const { Employee, Leave } = models;

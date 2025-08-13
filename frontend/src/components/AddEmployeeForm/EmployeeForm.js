@@ -1,4 +1,3 @@
-// src/components/EmployeeForm/EmployeeForm.js
 import React, { useState } from 'react';
 import './EmployeeForm.css';
 
